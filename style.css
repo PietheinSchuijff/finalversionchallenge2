@@ -1,0 +1,317 @@
+body {
+	background-color: black;
+	margin: auto;
+	color: white;
+	font-family: Roboto;
+	text-align: center;
+}
+.container {
+	width: 200px;
+	background-color: darkblue;
+	height: 75px;
+	border-radius: 10px 10px 10px;
+	margin-left: 32%;
+	margin-top: 5%;
+	border-style: solid 10px 10px 10px white;
+}
+#date {
+  font-size: 1em;
+  width: 100%;
+  background-color: darkblue;
+  height: 25px;
+  border-radius: 10px 10px 10px;
+  margin-left: 0%;
+  margin-top: 10%;
+  border-style: solid 10px 10px 10px white;
+}
+
+h1 {
+	color: white;
+	padding-top: 12.5px;
+}
+.earth {
+  position: absolute;
+  top: 100px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  background-image: url(map.jpg);
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+  animation: spin 30s linear alternate infinite
+}
+@keyframes spin{
+  100%{background-position: 100%;}
+}
+#page {
+	width: 75%;
+	background-color: blue
+}
+p {
+	margin-top: 120%;
+	font-family: Raleway;
+}
+@media only screen and (max-width: 414px) {
+  /*iPhone 6/7/8*/
+  body {
+	background-color: #382d2c;
+	margin: auto;
+	color: white;
+	font-family: Roboto;
+	text-align: center;
+}
+.container {
+	width: 40%;
+	background-color: darkblue;
+	height: 75px;
+	border-radius: 10px 10px 10px;
+	margin-left: 30%;
+	margin-top: 5%;
+	border-style: solid 10px 10px 10px white;
+}
+#date {
+  font-size: 1em;
+  width: 100%;
+  background-color: darkblue;
+  height: 25px;
+  border-radius: 10px 10px 10px;
+  margin-left: 0%;
+  margin-top: 10%;
+  border-style: solid 10px 10px 10px white;
+}
+
+h1 {
+	color: white;
+	padding-top: 12.5px;
+}
+.earth {
+  position: absolute;
+  top: 100px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  background-image: url(map.jpg);
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+  animation: spin 30s linear alternate infinite
+}
+@keyframes spin{
+  100%{background-position: 100%;}
+}
+#page {
+	width: 75%;
+	background-color: blue
+}
+p {
+	margin-top: 380px;
+	font-family: Raleway;
+}
+}
+  @media only screen and (min-width: 768px) {
+  /*iPad*/
+  body {
+	background-color: #382d2c;
+	margin: auto;
+	color: white;
+	font-family: Roboto;
+	text-align: center;
+}
+#flexbox {
+	display: flex;
+	flex-direction: row;
+	height: 99%;
+}
+.container {
+	width: 200px;
+	background-color: darkblue;
+	height: 75px;
+	border-radius: 10px 10px 10px;
+	margin-top: 225px;
+	margin-left: 99%;
+	border-style: solid 10px 10px 10px white;
+}
+#date {
+  font-size: 1em;
+  width: 100%;
+  background-color: darkblue;
+  height: 25px;
+  border-radius: 10px 10px 10px;
+  margin-left: 0%;
+  margin-top: 10%;
+  border-style: solid 10px 10px 10px white;
+}
+h1 {
+	color: white;
+	padding-top: 12.5px;
+	text-align: center;
+	`margin-left: 35%;
+}
+.earth {
+  position: absolute;
+  display: inline;
+  top: 200px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left: 50%;
+  margin-top: 0%;
+  width: 300px;
+  height: 300px;
+  background-image: url(map.jpg);
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+  animation: spin 30s linear alternate infinite
+}
+@keyframes spin{
+  100%{background-position: 100%;}
+}
+#page {
+	width: 75%;
+	background-color: blue
+}
+p {
+	margin-top: 100%;
+
+	font-family: Raleway;
+}
+
+#flexcontainer-1 {
+	margin-left: 0%;
+}
+}
+@media only screen and (min-width: 1280px) {
+    /*Kleine desktop*/
+    body {
+	background-color: black;
+	margin: auto;
+	color: white;
+	font-family: Roboto;
+	text-align: center;
+}
+.container {
+	width: 200%;
+	background-color: darkblue;
+	height: 75px;
+	border-radius: 10px 10px 10px;
+	margin-left: 520%;
+	margin-top: 50%;
+	border-style: solid 10px 10px 10px white;
+}
+#date {
+  font-size: 1em;
+  width: 100%;
+  background-color: darkblue;
+  height: 25px;
+  border-radius: 10px 10px 10px;
+  margin-left: 0%;
+  margin-top: 10%;
+  border-style: solid 10px 10px 10px white;
+}
+
+h1 {
+	color: white;
+	padding-top: 12.5px;
+}
+
+.earth {
+  position: absolute;
+  top: 300px;
+
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 400px;
+  height: 400px;
+  background-image: url(map.jpg);
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+  animation: spin 30s linear alternate infinite
+}
+@keyframes spin{
+  100%{background-position: 100%;}
+}
+#page {
+	width: 75%;
+	background-color: blue
+}
+p {
+	margin-top: 100%;
+	font-family: Raleway;
+}
+}
+ 
+  @media only screen and (min-width: 1980px) {
+  	/*Grote desktop */
+  	   body {
+	background-color: black;
+	margin: auto;
+	color: white;
+	font-family: Roboto;
+	text-align: center;
+}
+.container {
+	width: 200%;
+	background-color: darkblue;
+	height: 175px;
+	border-radius: 10px 10px 10px;
+	margin-left: 130%;
+	margin-top: 0%;
+  z-index: 0;
+	border-style: solid 10px 10px 10px white;
+}
+#date {
+  font-size: 1em;
+  width: 100%;
+  background-color: darkblue;
+  height: 25px;
+  border-radius: 10px 10px 10px;
+  margin-left: 0%;
+  margin-top: 10%;
+  border-style: solid 10px 10px 10px white;
+}
+h1 {
+  font-size: 7em;
+	color: white;
+	padding-top: 12.5px;
+}
+.earth {
+  position: absolute;
+  top: 850px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 600px;
+  height: 600px;
+  background-image: url(map.jpg);
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+  animation: spin 30s linear alternate infinite
+}
+@keyframes spin{
+  100%{background-position: 100%;}
+}
+#page {
+	width: 75%;
+	background-color: blue
+}
+p {
+	margin-top: 100%;
+  width: 600px;
+  margin-right: 20%;
+  font-size: 2em;
+	font-family: Raleway;
+}
+ }
